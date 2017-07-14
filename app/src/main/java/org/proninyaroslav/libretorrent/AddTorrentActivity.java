@@ -70,8 +70,7 @@ public class AddTorrentActivity extends AppCompatActivity
     private Exception sentError;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState)
-    {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         if (Utils.isDarkTheme(getApplicationContext())) {

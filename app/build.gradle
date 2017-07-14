@@ -43,6 +43,7 @@ dependencies {
     compile 'commons-io:commons-io:2.5'
     compile 'net.grandcentrix.tray:tray:0.12.0'
     compile 'ch.acra:acra:4.9.2'
+    compile 'org.jsoup:jsoup:1.10.3'
 
     compile 'com.takisoft.fix:preference-v7:25.3.0.0'
     compile 'com.github.aakira:expandable-layout:1.6.0@aar'

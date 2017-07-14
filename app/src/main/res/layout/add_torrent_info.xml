@@ -13,10 +13,10 @@
         android:padding="16dp">
 
         <TextView
+            style="@style/BaseTheme.HeaderText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/torrent_name"
-            style="@style/BaseTheme.HeaderText" />
+            android:text="@string/torrent_name"/>
 
         <android.support.design.widget.TextInputLayout
             android:id="@+id/layout_torrent_name"
@@ -27,7 +27,7 @@
                 android:id="@+id/torrent_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="text|textNoSuggestions" />
+                android:inputType="text|textNoSuggestions"/>
         </android.support.design.widget.TextInputLayout>
     </LinearLayout>
 

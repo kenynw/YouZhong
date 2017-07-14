@@ -270,7 +270,7 @@ public class AddTorrentFragment extends Fragment
                 callback.onPreExecute(progressDialogText);
             }
         }
-
+ 
         @Override
         protected Exception doInBackground(Uri... params)
         {

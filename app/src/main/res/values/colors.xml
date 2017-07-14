@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="primary">#673AB7</color>
+    <color name="primary">#ff7d6f</color>
     <color name="primary_dark">#512DA8</color>
     <color name="primary_light">#D1C4E9</color>
     <color name="gray_dark">#727272</color>
@@ -20,8 +20,8 @@
     <color name="cur_open_torrent_indicator">#FCE4EC</color>
     <color name="cur_open_torrent_indicator_dark">#51353E</color>
     <color name="file_manager_highlight">@color/accent</color>
-    <color name="text_primary">#DE000000</color>
-    <color name="text_secondary">#9E9E9E</color>
+    <color name="text_primary">#FF222222</color>
+    <color name="text_secondary">#FF999999</color>
     <color name="text_primary_inverse">#FFFFFF</color>
     <color name="text_secondary_inverse">#9E9E9E</color>
     <color name="action_mode">#757575</color>

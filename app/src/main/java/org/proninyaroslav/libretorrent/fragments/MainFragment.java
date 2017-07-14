@@ -609,9 +609,11 @@ public class MainFragment extends Fragment
     }
 
     @Override
-    public boolean onOptionsItemSelected(MenuItem item)
-    {
+    public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
+            case R.id.search_net:
+//                startActivity();
+                break;
             case R.id.settings_menu:
                 startActivity(new Intent(activity, SettingsActivity.class));
                 break;
