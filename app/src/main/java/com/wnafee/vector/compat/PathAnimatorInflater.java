@@ -31,7 +31,7 @@ import android.util.Xml;
 import android.view.InflateException;
 import android.view.animation.AnimationUtils;
 
-import org.proninyaroslav.libretorrent.R;
+import com.liaopeikun.youzhong.R;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 

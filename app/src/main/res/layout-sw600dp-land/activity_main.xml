@@ -19,7 +19,7 @@
                 android:background="?attr/background">
 
                 <fragment
-                    class="org.proninyaroslav.libretorrent.fragments.MainFragment"
+                    class="com.liaopeikun.youzhong.fragments.MainFragment"
                     android:id="@+id/main_fragmentContainer"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="primary">#ff7d6f</color>
-    <color name="primary_dark">#512DA8</color>
-    <color name="primary_light">#D1C4E9</color>
+    <color name="primary">#1e8ae8</color>
+    <color name="primary_dark">#176eb9</color>
+    <color name="primary_light">#33c9ff</color>
     <color name="gray_dark">#727272</color>
     <color name="gray">#E0E0E0</color>
     <color name="gray_light">#EEEEEE</color>
     <color name="divider">#E0E0E0</color>
     <color name="divider_dark">#424242</color>
-    <color name="accent">#FF4081</color>
-    <color name="accent_dark">#C2185B</color>
+    <color name="accent">#0077d9</color>
+    <color name="accent_dark">#e6b624</color>
     <color name="accent_light">#FCE4EC</color>
-    <color name="background">#FFFFFF</color>
+    <color name="background">@color/white</color>
     <color name="background_dark">#303030</color>
     <color name="background_blank">#EDEDED</color>
     <color name="background_blank_dark">#424242</color>
-    <color name="background_dialog">#FFFFFF</color>
+    <color name="background_dialog">@color/white</color>
     <color name="background_dialog_dark">#424242</color>
     <color name="cur_open_torrent_indicator">#FCE4EC</color>
     <color name="cur_open_torrent_indicator_dark">#51353E</color>
@@ -31,6 +31,12 @@
     <color name="error">#D50000</color>
     <color name="ok">#00C853</color>
     <color name="pieces_cell">#BDBDBD</color>
+    <color name="fab_background_normal">#ffca28</color>
+    <color name="fab_background_pressed">#e6b624</color>
     <color name="fab_menu_shadow">#66000000</color>
-    <color name="fab_menu_label_normal">#333333</color>
+    <color name="fab_menu_label_normal">@color/white</color>
+    <color name="fab_menu_pressed">#e1e1e1</color>
+    <color name="fab_menu_ripple">#d2d2d2</color>
+
+    <color name="white">#FFFFFFFF</color>
 </resources>

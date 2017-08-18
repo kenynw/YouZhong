@@ -43,7 +43,7 @@
                 android:text="@string/piece_map"
                 style="@style/BaseTheme.HeaderText" />
 
-            <org.proninyaroslav.libretorrent.customviews.PiecesView
+            <com.liaopeikun.youzhong.customviews.PiecesView
                 android:id="@+id/piece_map"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />

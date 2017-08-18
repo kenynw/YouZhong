@@ -26,7 +26,7 @@ import com.wnafee.vector.compat.DrawableCompat;
 import com.wnafee.vector.compat.ResourcesCompat;
 import com.wnafee.vector.compat.Tintable;
 
-import org.proninyaroslav.libretorrent.R;
+import com.liaopeikun.youzhong.R;
 
 import java.lang.ref.WeakReference;
 

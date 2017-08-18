@@ -54,9 +54,9 @@
     <string name="settings">设置</string>
     <string name="ip_filter_add_error">无法添加 IP 过滤器。可能文件已损坏或格式不正确。</string>
     <string name="proxy_settings_applied">代理设置应用成功</string>
-    <string name="proxy_settings_apply_after_reboot">重新启动应用程序后，将应用代理设置。</string>
-    <string name="theme_settings_apply_after_reboot">Theme settings will be applied after restarting the app</string>
-    <string name="settings_apply_after_reboot">Settings will be applied after restarting the app</string>
+    <string name="proxy_settings_apply_after_reboot">代理设置成功，重启应用后生效。</string>
+    <string name="theme_settings_apply_after_reboot">主题设置成功，重启应用后生效</string>
+    <string name="settings_apply_after_reboot">设置成功，重启应用后生效</string>
     <string name="about">关于</string>
     <string-array name="sort_torrent_by">
         <item>Without sorting</item>
@@ -76,6 +76,9 @@
         <item>peers</item>
         <item>leechers</item>
     </string-array>
+
+    <!-- Hint -->
+    <string name="hint_search">请输入资源名搜索</string>
 
     <!-- Foreground notification -->
 
@@ -100,6 +103,12 @@
     <string name="torrents_moved_content" formatted="false">成功: %1$d; 失败: %2$d</string>
     <string name="torrents_move_inbox_successfully">成功:</string>
     <string name="torrents_move_inbox_failed">失败:</string>
+
+    <!-- 搜索 -->
+
+    <string name="copy_torrent_link">复制链接</string>
+    <string name="download_in_xunlei">迅雷下载</string>
+    <string name="download_now">直接下载</string>
 
     <!-- Torrent list item -->
 
@@ -253,7 +262,7 @@
     <!-- Settings -->
 
     <!-- Headers -->
-    <string name="pref_header_appearance">出現</string>
+    <string name="pref_header_appearance">显示</string>
     <string name="pref_header_behavior">行为</string>
     <string name="pref_header_storage">存储</string>
     <string name="pref_header_limitations">限制</string>

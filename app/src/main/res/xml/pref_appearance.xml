@@ -39,7 +39,7 @@
             android:dependency="@string/pref_key_torrent_finish_notify"
             android:persistent="false" />
 
-        <org.proninyaroslav.libretorrent.settings.customprefs.ColorPreference
+        <com.liaopeikun.youzhong.settings.customprefs.ColorPreference
             android:key="@string/pref_key_led_indicator_color_notify"
             android:title="@string/pref_led_indicator_color_notify_title"
             android:dependency="@string/pref_key_led_indicator_notify"

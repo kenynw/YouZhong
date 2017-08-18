@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_height="match_parent"
-    android:layout_width="match_parent"
-    android:gravity="center">
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
 
-    <include
-        layout="@layout/statusbar_kitkat"/>
+    <include layout="@layout/statusbar_kitkat"/>
 
     <android.support.design.widget.CoordinatorLayout
         android:id="@+id/coordinator_layout"
-        android:layout_height="match_parent"
         android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_below="@id/statusBarKitKat">
 
         <android.support.design.widget.AppBarLayout
@@ -23,21 +22,23 @@
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
-                android:minHeight="?attr/actionBarSize"
                 android:background="?attr/colorPrimary"
-                app:layout_scrollFlags="scroll|enterAlways"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
                 android:transitionName="actionBar"
-                app:popupTheme="?attr/popupTheme"
-                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+                app:layout_scrollFlags="scroll|enterAlways"
+                app:popupTheme="?attr/popupTheme"/>
 
             <android.support.design.widget.TabLayout
                 android:id="@+id/add_torrent_tabs"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
-                app:tabMode="fixed"
-                app:tabMaxWidth="0dp"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
                 app:tabGravity="fill"
-                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+                app:tabIndicatorColor="@color/white"
+                app:tabMaxWidth="0dp"
+                app:tabMode="fixed"
+                />
         </android.support.design.widget.AppBarLayout>
 
         <android.support.v4.view.ViewPager
@@ -45,7 +46,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/app_bar"
+            android:background="?attr/backgroundBlank"
             app:layout_behavior="@string/appbar_scrolling_view_behavior"
-            android:background="?attr/backgroundBlank" />
+            />
+
     </android.support.design.widget.CoordinatorLayout>
+
 </RelativeLayout>

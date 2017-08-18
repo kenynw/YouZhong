@@ -1,31 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/item_torrent_list"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="?attr/defaultRectRipple">
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/item_torrent_list"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="?attr/defaultRectRipple">
 
     <View
         android:id="@+id/indicator_cur_open_torrent"
         android:layout_width="6dp"
         android:layout_height="match_parent"
-        android:background="@android:color/transparent" />
+        android:background="@android:color/transparent"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
         android:gravity="center">
 
         <com.wnafee.vector.ui.MorphButton
             android:id="@+id/pause_torrent"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:padding="6dp"
-            android:background="@drawable/fab_ripple" />
+            android:background="@drawable/fab_ripple"
+            android:padding="6dp"/>
 
         <LinearLayout
             android:layout_width="0dp"
@@ -38,18 +39,19 @@
                 android:id="@+id/torrent_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingBottom="8dp"
                 android:ellipsize="end"
                 android:maxLines="2"
-                android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
+                android:paddingBottom="8dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                tools:text="冰与火之歌：权力的游戏.Game.of.Thrones.S04E01"/>
 
             <ProgressBar
                 android:id="@+id/torrent_progress"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:indeterminate="false"
-                android:max="100"
-                style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+                android:max="100"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -70,11 +72,13 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
-                        android:gravity="center_vertical"
                         android:layout_marginRight="8dp"
                         android:ellipsize="end"
+                        android:gravity="center_vertical"
                         android:maxLines="1"
-                        android:textAppearance="?attr/smallText" />
+                        android:textAppearance="?attr/smallText"
+                        tools:text="已暂停"
+                        />
                 </LinearLayout>
 
                 <TextView
@@ -82,10 +86,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
-                    android:gravity="center_vertical"
                     android:ellipsize="end"
+                    android:gravity="center_vertical"
                     android:maxLines="1"
-                    android:textAppearance="?attr/smallText" />
+                    android:textAppearance="?attr/smallText"
+                    tools:text="0.00KB/0.1KB"
+                    />
+
             </LinearLayout>
 
             <LinearLayout
@@ -107,11 +114,13 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
-                        android:gravity="center_vertical"
                         android:layout_marginRight="8dp"
                         android:ellipsize="end"
+                        android:gravity="center_vertical"
                         android:maxLines="1"
-                        android:textAppearance="?attr/smallText" />
+                        android:textAppearance="?attr/smallText"
+                        tools:text="205KB/17.40GB"
+                        />
                 </LinearLayout>
 
                 <TextView
@@ -119,10 +128,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
-                    android:gravity="center_vertical"
                     android:ellipsize="end"
+                    android:gravity="center_vertical"
                     android:maxLines="1"
-                    android:textAppearance="?attr/smallText" />
+                    android:textAppearance="?attr/smallText"/>
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

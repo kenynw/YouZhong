@@ -5,7 +5,7 @@ android {
     buildToolsVersion "25.0.2"
 
     defaultConfig {
-        applicationId "org.proninyaroslav.libretorrent"
+        applicationId "com.liaopeikun.youzhong"
         minSdkVersion 15
         targetSdkVersion 25
         versionCode 4
@@ -43,7 +43,6 @@ dependencies {
     compile 'commons-io:commons-io:2.5'
     compile 'net.grandcentrix.tray:tray:0.12.0'
     compile 'ch.acra:acra:4.9.2'
-    compile 'org.jsoup:jsoup:1.10.3'
 
     compile 'com.takisoft.fix:preference-v7:25.3.0.0'
     compile 'com.github.aakira:expandable-layout:1.6.0@aar'
@@ -56,4 +55,11 @@ dependencies {
     compile 'com.frostwire:jlibtorrent-android-arm64:' + JLIBTORRENT_VERSION
     compile 'com.frostwire:jlibtorrent-android-x86:' + JLIBTORRENT_VERSION
     compile 'com.frostwire:jlibtorrent-android-x86_64:' + JLIBTORRENT_VERSION
+
+    // 其他杂七杂八的
+    compile 'org.jsoup:jsoup:1.10.3'
+    compile 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    compile 'com.umeng.analytics:analytics:latest.integration'
+    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.22'
 }

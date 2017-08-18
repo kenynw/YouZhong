@@ -8,7 +8,8 @@
         android:icon="@drawable/ic_search_white_24dp"
         android:title="@string/search"
         app:actionViewClass="android.support.v7.widget.SearchView"
-        app:showAsAction="ifRoom|collapseActionView"/>
+        app:showAsAction="ifRoom|collapseActionView"
+        />
 
     <item
         android:id="@+id/search_net"
@@ -22,11 +23,11 @@
         android:title="@string/settings"
         />
 
-    <item
-        android:id="@+id/sort_torrent_menu"
-        android:icon="@drawable/ic_sort_white_24dp"
-        android:title="@string/sorting"
-        />
+    <!--<item-->
+        <!--android:id="@+id/sort_torrent_menu"-->
+        <!--android:icon="@drawable/ic_sort_white_24dp"-->
+        <!--android:title="@string/sorting"-->
+        <!--/>-->
 
     <item
         android:id="@+id/about_menu"

@@ -14,7 +14,7 @@ package com.wnafee.vector.compat;
  * the License.
  */
 
-import org.proninyaroslav.libretorrent.R;
+import com.liaopeikun.youzhong.R;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 
